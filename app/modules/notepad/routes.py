@@ -39,6 +39,7 @@ def create_notepad():
 '''
 READ BY ID
 '''
+
 @notepad_bp.route('/notepad/<int:notepad_id>', methods=['GET'])
 @login_required
 def get_notepad(notepad_id):
