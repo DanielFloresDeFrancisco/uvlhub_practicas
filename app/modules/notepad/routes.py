@@ -54,6 +54,7 @@ def get_notepad(notepad_id):
 '''
 EDIT
 '''
+
 @notepad_bp.route('/notepad/edit/<int:notepad_id>', methods=['GET', 'POST'])
 @login_required
 def edit_notepad(notepad_id):
@@ -97,6 +98,4 @@ def delete_notepad(notepad_id):
         flash('Error deleting notepad', 'error')
     
     return redirect(url_for('notepad.index'))
-
-
 
