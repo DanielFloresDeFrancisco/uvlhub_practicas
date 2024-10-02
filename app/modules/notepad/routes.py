@@ -20,6 +20,7 @@ def index():
 '''
 CREATE
 '''
+
 @notepad_bp.route('/notepad/create', methods=['GET', 'POST'])
 @login_required
 def create_notepad():
