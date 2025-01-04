@@ -1,0 +1,10 @@
+diff --git a/README.md b/README.md
+index e97e32c..7dcd1e0 100644
+--- a/README.md
++++ b/README.md
+@@ -15,4 +15,4 @@ Repository of feature models in UVL format integrated with Zenodo and flamapy fo
+ 
+ ## Official documentation
+ 
+-You can consult the official documentation of the project at [docs.uvlhub.io](https://docs.uvlhub.io/)
++You can consult the official documentation of the project at [docs.uvlhub.io](https://docs.uvlhub.io/) Cambio en el READme
